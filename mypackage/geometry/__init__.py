@@ -1,1 +1,3 @@
-from .geometry import Point, Line
+from .geometry import Line, Point
+
+__all__ = ["Line", "Point"]
